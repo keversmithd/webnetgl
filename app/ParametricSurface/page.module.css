@@ -1,0 +1,42 @@
+
+.column {
+    float: left;
+    width: 50%;
+
+    padding:10%;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.eqdetails{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 600;
+}
+
+.scene{
+    width:400px;
+    height:400px;
+    background:#000;
+    
+
+}
+
+.low_pad{
+    padding-bottom:100%;
+}
+
+.background
+{
+    background-color: white;
+}
+.canvas
+{
+    background:#000;
+}
